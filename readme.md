@@ -14,8 +14,8 @@
 ## データの仕様
 データはGeoJSON形式で、3つのMultiLineString Featureで構成される。
 プレート境界の解釈に関しては諸説あるため、各LineStringがどのプレートとどのプレートの境界にあたるかの記述は省く。利用者側で解釈し、追加することを想定している。
-1. Plate_Boundaries.geojson（平滑化なし）
-2. Plate_Boundaries_smoothed.geojson（平滑化済み）
+1. [Plate_Boundaries.geojson](https://github.com/0Quake/JMA-plate-boundary/blob/main/Plate_Boundaries.geojson)（平滑化なし）
+2. [Plate_Boundaries_smoothed.geojson](https://github.com/0Quake/JMA-plate-boundary/blob/main/Plate_Boundaries_smoothed.geojson)（平滑化済み）
 
 ※後者は、手描きに起因する荒さを平滑化しているため、人の目に触れる用途に適していると思われます。ただし、機械的処理には前者が適していると思われます。
 
