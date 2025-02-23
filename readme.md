@@ -9,7 +9,7 @@
 4. 目視でズレがないか確認（全数調査）
 
 ## データの仕様
-データはGeoJSON形式で、3つのLine Stringで構成される。
+データはGeoJSON形式で、3つのMultiLineString Featureで構成される。
 プレート境界の解釈に関しては諸説あるため、各LineStringがどのプレートとどのプレートの境界にあたるかの記述は省く。利用者側で解釈し、追加することを想定している。
 1. Plate_Boundaries.geojson（平滑化なし）
 2. Plate_Boundaries_smoothed.geojson（平滑化済み）
