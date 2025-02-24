@@ -1,5 +1,5 @@
 # 気象庁によるプレート境界 GISデータ
-気象庁による「震度データベース」などのコンテンツでは、プレート境界が描かれた地図が表示される。このプレート境界のデータは、有名なPeter Birdらによるデータとは異なり、気象庁が独自に解析したものと思われる。この地図を高精度にトレースし、GISデータに起こしたものを公開する。
+気象庁による「震度データベース」などのコンテンツでは、プレート境界が描かれた地図が表示される。このプレート境界のデータは、有名な[Peter Birdらによるもの](https://github.com/fraxen/tectonicplates)や[テキサス大学によるもの](https://www-udc.ig.utexas.edu/external/plates/data.htm)とは異なり、気象庁が独自に解析したものと思われる。データは日本周辺に限られるが、他の多くのデータよりも緻密である。この地図を高精度にトレースし、GISデータに起こしたものを公開する。
 
 [**動的サンプル**](https://github.com/0Quake/JMA-plate-boundary/blob/main/Plate_Boundaries.geojson)
 
